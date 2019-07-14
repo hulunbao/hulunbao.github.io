@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://hulunbao.github.io/</loc>
+    <lastmod>2019-07-14T21:58:02+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/about/</loc>
+    <lastmod>2019-07-14T21:58:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/categories/</loc>
+    <lastmod>2019-07-14T21:53:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/post/</loc>
+    <lastmod>2019-07-14T21:53:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/tags/</loc>
+    <lastmod>2019-07-14T21:53:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/tags/hugo/</loc>
+    <lastmod>2019-07-14T21:53:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2019-07-14T21:53:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/post/my-first-blog/</loc>
+    <lastmod>2019-07-14T21:53:12+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/categories/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2019-07-14T21:53:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/archives/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
