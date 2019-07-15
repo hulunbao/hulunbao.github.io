@@ -20,6 +20,18 @@
   </url>
   
   <url>
+    <loc>https://hulunbao.github.io/tags/Linux/</loc>
+    <lastmod>2019-07-14T21:53:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/categories/Linux/</loc>
+    <lastmod>2019-07-14T21:53:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://hulunbao.github.io/post/</loc>
     <lastmod>2019-07-14T21:53:12+08:00</lastmod>
     <priority>0</priority>
@@ -32,31 +44,12 @@
   </url>
   
   <url>
-    <loc>https://hulunbao.github.io/tags/hugo/</loc>
+    <loc>https://hulunbao.github.io/post/Increased-efficiency-of-Linux-aliases/</loc>
     <lastmod>2019-07-14T21:53:12+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hulunbao.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2019-07-14T21:53:12+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hulunbao.github.io/post/my-first-blog/</loc>
-    <lastmod>2019-07-14T21:53:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hulunbao.github.io/categories/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2019-07-14T21:53:12+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hulunbao.github.io/archives/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

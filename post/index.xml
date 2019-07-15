@@ -12,12 +12,15 @@
     
     
     <item>
-      <title>我的第一个博客</title>
-      <link>https://hulunbao.github.io/post/my-first-blog/</link>
+      <title>几个提高效率的Linux命令别名</title>
+      <link>https://hulunbao.github.io/post/Increased-efficiency-of-Linux-aliases/</link>
       <pubDate>Sun, 14 Jul 2019 21:53:12 +0800</pubDate>
       
-      <guid>https://hulunbao.github.io/post/my-first-blog/</guid>
-      <description> hello world ^_^ </description>
+      <guid>https://hulunbao.github.io/post/Increased-efficiency-of-Linux-aliases/</guid>
+      <description>在Linux环境下工作，会有几个经常用到的繁琐的命令。而且还需要重复这些繁琐的命令。
+Linux下我们知道有别名命令 alias ,可以将这些繁琐且常用的命令自定义为我们容易记住的别名。
+下面介绍几个比较实用的命令别名。
+ 压缩文件，tar命令在Linux环境下使用比较常见，但是tar的参数比较多，所以我们可以起个别名叫untar,这样我们下次解压时，直接 untar filename 即可。</description>
     </item>
     
   </channel>

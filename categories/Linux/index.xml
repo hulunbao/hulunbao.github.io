@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hulun的博客</title>
-    <link>https://hulunbao.github.io/</link>
-    <description>Recent content on hulun的博客</description>
+    <title>Linux on hulun的博客</title>
+    <link>https://hulunbao.github.io/categories/Linux/</link>
+    <description>Recent content in Linux on hulun的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 14 Jul 2019 21:58:02 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jul 2019 21:53:12 +0800</lastBuildDate>
     
-	<atom:link href="https://hulunbao.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hulunbao.github.io/categories/Linux/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>关于我</title>
-      <link>https://hulunbao.github.io/about/</link>
-      <pubDate>Sun, 14 Jul 2019 21:58:02 +0800</pubDate>
-      
-      <guid>https://hulunbao.github.io/about/</guid>
-      <description> 一个码农 </description>
-    </item>
     
     <item>
       <title>几个提高效率的Linux命令别名</title>
@@ -30,15 +21,6 @@
 Linux下我们知道有别名命令 alias ,可以将这些繁琐且常用的命令自定义为我们容易记住的别名。
 下面介绍几个比较实用的命令别名。
  压缩文件，tar命令在Linux环境下使用比较常见，但是tar的参数比较多，所以我们可以起个别名叫untar,这样我们下次解压时，直接 untar filename 即可。</description>
-    </item>
-    
-    <item>
-      <title>Archives</title>
-      <link>https://hulunbao.github.io/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hulunbao.github.io/archives/</guid>
-      <description></description>
     </item>
     
   </channel>
