@@ -7,20 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>几个提高效率的Linux命令别名 | hulun的博客</title>
-    <meta property="og:title" content="几个提高效率的Linux命令别名 - hulun的博客">
+    <title>解决访问github速度慢的问题 | hulun的博客</title>
+    <meta property="og:title" content="解决访问github速度慢的问题 - hulun的博客">
     <meta property="og:type" content="article">
         
-    <meta property="article:published_time" content="2019-07-14T21:53:12&#43;08:00">
+    <meta property="article:published_time" content="2019-07-17T10:23:30&#43;08:00">
         
         
-    <meta property="article:modified_time" content="2019-07-14T21:53:12&#43;08:00">
+    <meta property="article:modified_time" content="2019-07-17T10:23:30&#43;08:00">
         
     <meta name="Keywords" content="golang,go语言,,java,博客,python,Linux">
-    <meta name="description" content="几个提高效率的Linux命令别名">
+    <meta name="description" content="解决访问github速度慢的问题">
         
     <meta name="author" content="hulun">
-    <meta property="og:url" content="https://hulunbao.github.io/post/Increased-efficiency-of-Linux-aliases/">
+    <meta property="og:url" content="https://hulunbao.github.io/post/solving-github-slow/">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="/css/normalize.css">
@@ -74,16 +74,16 @@
                 <div class="res-cons">
                     <article class="post">
                         <header>
-                            <h1 class="post-title">几个提高效率的Linux命令别名</h1>
+                            <h1 class="post-title">解决访问github速度慢的问题</h1>
                         </header>
                         <date class="post-meta meta-date">
-                            2019年7月14日
+                            2019年7月17日
                         </date>
                         
                         <div class="post-meta">
                             <span>|</span>
                             
-                                <span class="meta-category"><a href="https://hulunbao.github.io/categories/Linux">Linux</a></span>
+                                <span class="meta-category"><a href="https://hulunbao.github.io/categories/GitHub">GitHub</a></span>
                             
                         </div>
                         
@@ -94,61 +94,45 @@
                         
                         
                         <div class="post-content">
-                            <p>在Linux环境下工作，会有几个经常用到的繁琐的命令。而且还需要重复这些繁琐的命令。</p>
+                            
 
-<p>Linux下我们知道有别名命令 <strong>alias</strong> ,可以将这些繁琐且常用的命令自定义为我们容易记住的别名。</p>
+<h4 id="问题">问题</h4>
 
-<p>下面介绍几个比较实用的命令别名。</p>
+<p>今天上访问GitHub总是很慢，加载不出来。以为是网络问题，后来发现不是于是上网查找之后才知道在国内访问GitHub速度慢是有跟多原因的，但是主要的原因是因为GitHub的分发加速网络的域名遭到DNS污染。</p>
 
-<ul>
-<li><p>压缩文件，tar命令在Linux环境下使用比较常见，但是tar的参数比较多，所以我们可以起个别名叫untar,这样我们下次解压时，直接 <strong>untar filename</strong> 即可。</p>
+<p>由于GitHub的加速分发CDN域名assets-cdn.github.com遭到DNS污染，导致无法连接使用GitHub的加速分发服务器，才使得大陆访问速度很慢。</p>
 
-<pre><code>alias untar='tar -zxvf'
-</code></pre></li>
+<h4 id="解决">解决</h4>
 
-<li><p>我们下载一个很大的文件时，会遇到因为网络而中断的情况，需要重新下载。是不是有点头疼？我们可以用 <strong>wget</strong> 的 <strong>-c</strong> 选项支持断点下载，我们将他设置为</p>
+<p>通过修改host文件来解决,将域名直接指向IP地址绕过DNS解析。</p>
 
-<pre><code>alias wget='wget -c'
-</code></pre></li>
+<p><strong>获取域名的IP地址</strong></p>
 
-<li><p>下载一个文件之后，我们想要校验下它的 checksum 值，可以设置别名为</p>
+<p>访问 <a href="IPAddress.com">IPAddress.com</a> 获取域名IP地址</p>
 
-<pre><code>alias sha='shasum -a 256'
-</code></pre></li>
-
-<li><p>linux 下 ping 命令会一直输出，没有多大意义。我们可以利用 -c 选项限制输出次数</p>
-
-<pre><code>alias ping='ping -c 5
-</code></pre></li>
-
-<li><p>我们想随时随地启动一个 web服务器，我们可以用这个别名</p>
-
-<pre><code>alias www='python -m SimpleHTTPServer 8000'
-</code></pre></li>
-
-<li><p>我们有时候想测试下网速，但是Linux没有自带的命令可用，我们可以用第三方工具speedtest-cli 。</p>
-
-<pre><code>sudo pip3 install speedtest-cli
-sudo pip3 install speedtest-cli --upgrade #更新到最新版本
+<pre><code>140.82.113.4	github.com  
+151.101.185.194 github.global.ssl.fastly.net
 </code></pre>
 
-<p>我们先使用 <strong>sppedtest-cli</strong> 命令来选择离我们最近的服务器，然后设置下别名</p>
+<p><strong>修改hosts文件</strong></p>
 
-<pre><code>alias speed='speedtest-cli --server 2406 --simple'
-</code></pre></li>
+<p>将上面得到的结果添加到系统的hosts文件</p>
 
-<li><p>获取公网IP</p>
+<p>Linux下hosts文件路径</p>
 
-<pre><code>alias ipe='curl ipinfo.io/ip'
-</code></pre></li>
+<pre><code>etc/hosts
+</code></pre>
 
-<li><p>清屏，可以用 crtl + l 快捷键，也可以将命令 <strong>clear</strong> 定义的更短。</p>
+<p>Windows下hosts文件路径</p>
 
-<pre><code>alias c='clear'
-</code></pre></li>
-</ul>
+<pre><code>C:\Windows\System32\drivers\etc
+</code></pre>
 
-<p>这些命令你不一定都用得上，每个人工作内容不一样，可以选用自己能用上的。</p>
+<p>改完之后问题得到解决！</p>
+
+<h4 id="参考文章">参考文章</h4>
+
+<p><a href="https://www.wangmaoxian.com/201808/%E5%9B%BD%E5%86%85%E4%B8%BA%E4%BD%95%E8%AE%BF%E9%97%AEGithub%E5%A6%82%E6%AD%A4%E6%85%A2/">国内为何访问Github如此慢</a></p>
 
                         </div>
 
@@ -161,6 +145,10 @@ sudo pip3 install speedtest-cli --upgrade #更新到最新版本
     <h2>See Also</h2>
     <ul class="listing">
         
+        <li><a href="/about/">关于我</a></li>
+        
+        <li><a href="/post/Increased-efficiency-of-Linux-aliases/">几个提高效率的Linux命令别名</a></li>
+        
         <li><a href="/archives/">Archives</a></li>
         
     </ul>
@@ -171,7 +159,9 @@ sudo pip3 install speedtest-cli --upgrade #更新到最新版本
                             
                             <ul class="clearfix">
                                 
-                                <li><a href="https://hulunbao.github.io/tags/Linux">Linux</a></li>
+                                <li><a href="https://hulunbao.github.io/tags/GitHub">GitHub</a></li>
+                                
+                                <li><a href="https://hulunbao.github.io/tags/%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98">解决问题</a></li>
                                 
                             </ul>
                             
