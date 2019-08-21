@@ -128,12 +128,12 @@
 
 <h4 id="解决">解决</h4>
 
-<p>我们可以通过一下命令查看Docker日志</p>
+<p>我们可以使用<strong>docker logs [镜像id]</strong>命令查看Docker日志</p>
 
 <pre><code>docker logs ab4d178f313a
 </code></pre>
 
-<p>后面的一串是 镜像id 可以通过一下命令获取</p>
+<p><strong>镜像id</strong>获取</p>
 
 <pre><code>docker ps
 </code></pre>
@@ -144,7 +144,7 @@
 [1]: max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
 </code></pre>
 
-<p>最大虚拟内存区** vm.max_map_count<strong>太低，至少需要</strong>262144**,所以我们改一下</p>
+<p>最大虚拟内存区<strong>vm.max_map_count</strong>太低，至少需要<strong>262144</strong>,所以我们改一下</p>
 
 <pre><code>sudo sysctl -w vm.max_map_count=262144
 </code></pre>
