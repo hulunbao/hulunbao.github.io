@@ -4,7 +4,54 @@
   
   <url>
     <loc>https://hulunbao.github.io/categories/</loc>
-    <lastmod>2019-07-17T10:23:30+08:00</lastmod>
+    <lastmod>2019-08-21T19:08:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/tags/Docker/</loc>
+    <lastmod>2019-08-21T19:08:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/categories/ElasticSearch/</loc>
+    <lastmod>2019-08-21T19:08:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/tags/ElasticSearch/</loc>
+    <lastmod>2019-08-21T19:08:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/post/</loc>
+    <lastmod>2019-08-21T19:08:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/tags/</loc>
+    <lastmod>2019-08-21T19:08:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/</loc>
+    <lastmod>2019-08-21T19:08:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/post/automatic-exit-elasticsearch-in-docker/</loc>
+    <lastmod>2019-08-21T19:08:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hulunbao.github.io/tags/%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2019-08-21T19:08:33+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -21,32 +68,8 @@
   </url>
   
   <url>
-    <loc>https://hulunbao.github.io/post/</loc>
-    <lastmod>2019-07-17T10:23:30+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hulunbao.github.io/tags/</loc>
-    <lastmod>2019-07-17T10:23:30+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hulunbao.github.io/</loc>
-    <lastmod>2019-07-17T10:23:30+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://hulunbao.github.io/post/solving-github-slow/</loc>
     <lastmod>2019-07-17T10:23:30+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hulunbao.github.io/tags/%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2019-07-17T10:23:30+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

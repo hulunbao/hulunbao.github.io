@@ -6,10 +6,21 @@
     <description>Recent content on hulun的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 17 Jul 2019 10:23:30 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 19:08:33 +0800</lastBuildDate>
     
 	<atom:link href="https://hulunbao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>解决Docker中启动ElasticSearch自动退出</title>
+      <link>https://hulunbao.github.io/post/automatic-exit-elasticsearch-in-docker/</link>
+      <pubDate>Wed, 21 Aug 2019 19:08:33 +0800</pubDate>
+      
+      <guid>https://hulunbao.github.io/post/automatic-exit-elasticsearch-in-docker/</guid>
+      <description>问题 在Docker中启动ElasticSearch后发现不一会儿就退出了。
+命令如下
+docker run -d -p 9200:9200 elasticsearch:6.</description>
+    </item>
     
     <item>
       <title>解决访问github速度慢的问题</title>

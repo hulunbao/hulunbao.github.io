@@ -6,10 +6,19 @@
     <description>Recent content in Categories on hulun的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 17 Jul 2019 10:23:30 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 19:08:33 +0800</lastBuildDate>
     
 	<atom:link href="https://hulunbao.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ElasticSearch</title>
+      <link>https://hulunbao.github.io/categories/ElasticSearch/</link>
+      <pubDate>Wed, 21 Aug 2019 19:08:33 +0800</pubDate>
+      
+      <guid>https://hulunbao.github.io/categories/ElasticSearch/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GitHub</title>
